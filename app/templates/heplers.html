@@ -1,0 +1,32 @@
+{% macro nav_link(name, icon_class,link,active_page,current_page,is_dropdown=False) -%}
+    <li class="{{ "ml-3 text-small" if is_dropdown else "" }} {{ "active" if current_page==active_page else "" }}">
+        <a href="{{ link }}">
+            <i class="{{ icon_class }}"></i>
+            <p>{{ name }}</p>
+        </a>
+    </li>
+{%- endmacro %}
+
+{% macro dropdown_nav(name, icon_class,active_pages,current_page) -%}
+    {% set nav_id='nav_id_'+(range(100, 999) | random)|string %}
+
+    <li>
+        <a data-toggle="collapse" href="#{{ nav_id }}" class=""
+           aria-expanded="{{ "true" if current_page in active_pages else "false" }}">
+            <i class="{{ icon_class }}"></i>
+            <p>
+                {{ name }} <b class="caret"></b>
+            </p>
+        </a>
+        <div class="collapse {{ "show" if current_page in active_pages else "" }}" id="{{ nav_id }}" style="">
+            <ul class="nav">
+                {{ caller() }}
+            </ul>
+        </div>
+    </li>
+{%- endmacro %}
+
+{% macro alert_data(message, category,from,align,icon="now-ui-icons ui-1_bell-53",timer=80000) -%}
+    {% set json_alert={"content":{"icon":icon,"message":message},"options":{"type":category,"timer":timer,"placement":{"from":"bottom","align":"right"}}} %}
+    <div class="alert_data" data-alert="{{ json_alert }}"></div>
+{%- endmacro %}

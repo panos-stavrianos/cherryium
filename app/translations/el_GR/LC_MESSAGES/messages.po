@@ -1,0 +1,997 @@
+# Greek (Greece) translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-07 17:16+0300\n"
+"PO-Revision-Date: 2020-04-07 17:18+0300\n"
+"Last-Translator: \n"
+"Language: el\n"
+"Language-Team: el_GR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
+
+#: app/forms.py:28
+msgid "Submit"
+msgstr "Καταχώρηση"
+
+#: app/models.py:129
+msgid "Male"
+msgstr "Άνδρας"
+
+#: app/models.py:129
+msgid "Female"
+msgstr "Γυναίκα"
+
+#: app/templates/layout.html:35
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: app/templates/layout.html:36
+msgid "Customers"
+msgstr "Πελάτες"
+
+#: app/templates/layout.html:37
+msgid "Customizations"
+msgstr "Παραμετροποιήσεις"
+
+#: app/templates/layout.html:38
+msgid "Departments"
+msgstr "Τμήματα"
+
+#: app/templates/layout.html:39
+msgid "Periods of use"
+msgstr "Περίοδοι χρήσης"
+
+#: app/templates/layout.html:40
+msgid "Shift Groups"
+msgstr "Ομάδες βάρδιας"
+
+#: app/templates/layout.html:41
+msgid "Holidays"
+msgstr "Διακοπές / Αργίες"
+
+#: app/templates/layout.html:120 app/templates/no_sidebar_layout.html:43
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: app/templates/layout.html:125
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: app/templates/layout.html:127
+msgid "Edit Profile"
+msgstr "Επεξεργασία προφίλ"
+
+#: app/templates/layout.html:129
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: app/templates/flask_user/change_password.html:7
+msgid "User Profile"
+msgstr "Προφίλ Χρήστη"
+
+#: app/templates/flask_user/change_password.html:8
+msgid "Change your password"
+msgstr "Αλλαγή κωδικού"
+
+#: app/templates/flask_user/change_username.html:5
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:113
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/change_username.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/edit_user_profile.html:23
+msgid "Change username"
+msgstr "Αλλαγή ονόματος χρήστη"
+
+#: app/templates/flask_user/edit_user_profile.html:7
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:358
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/edit_user_profile.html:5
+msgid "User profile"
+msgstr "Προφίλ Χρήστη"
+
+#: app/templates/flask_user/edit_user_profile.html:8
+msgid "Edit your first and last name"
+msgstr "Επεξεργασία του ονόματος και του επωνύμου σας"
+
+#: app/templates/flask_user/edit_user_profile.html:36
+msgid ""
+"Change\n"
+"                                    username"
+msgstr ""
+"Αλλάξετε\n"
+"                                    Όνομα χρήστη"
+
+#: app/templates/flask_user/edit_user_profile.html:40
+msgid ""
+"Change\n"
+"                                    password"
+msgstr ""
+"Αλλάξετε\n"
+"                                    Κωδικό πρόσβασης"
+
+#: app/templates/flask_user/flask_user_layout.html:40
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:356
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user_layout.html:40
+msgid "Sign out"
+msgstr "Αποσύνδεση"
+
+#: app/templates/flask_user/flask_user_layout.html:42
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:164
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:355
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login_or_register.html:9
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user_layout.html:42
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+#: app/templates/flask_user/flask_user_layout.html:48
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user_layout.html:48
+msgid "Home page"
+msgstr "Αρχική σελίδα"
+
+#: app/templates/flask_user/forgot_password.html:8
+#: app/templates/flask_user/forgot_password.html:10
+#: app/templates/flask_user/login.html:9
+#: app/templates/flask_user/register.html:8
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: app/templates/flask_user/forgot_password.html:9
+#: app/templates/flask_user/login.html:8
+#: app/templates/flask_user/register.html:9
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:258
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login_or_register.html:41
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/register.html:5
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: app/templates/flask_user/invite_user.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/invite_user.html:5
+msgid "Invite User"
+msgstr "Πρόσκληση χρήστη"
+
+#: app/templates/flask_user/login.html:43
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login.html:44
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login_or_register.html:34
+msgid "Forgot your Password?"
+msgstr "Ξέχασες τον κωδικό πρόσβασης?"
+
+#: app/templates/flask_user/manage_emails.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/manage_emails.html:5
+msgid "Manage Emails"
+msgstr "Διαχείριση μηνυμάτων ηλεκτρονικού ταχυδρομείου"
+
+#: app/templates/flask_user/resend_confirm_email.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/resend_confirm_email.html:5
+msgid "Resend Confirmation Email"
+msgstr "Επανάληψη αποστολής ηλεκτρονικού ταχυδρομείου επιβεβαίωσης"
+
+#: app/templates/flask_user/reset_password.html:8
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/reset_password.html:5
+msgid "Reset Password"
+msgstr "Επαναφορά κωδικού"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:40
+msgid "This Username is already in use. Please try another one."
+msgstr "Αυτό το όνομα χρήστη χρησιμοποιείται ήδη. Παρακαλώ δοκιμάστε ένα άλλο."
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:47
+msgid "This Email is already in use. Please try another one."
+msgstr "Αυτό το Email χρησιμοποιείται ήδη. Παρακαλώ δοκιμάστε ένα άλλο."
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:56
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:155
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:216
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:247
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:304
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:347
+msgid "Email"
+msgstr "Email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:57
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:156
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:248
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:348
+msgid "Email is required"
+msgstr "Απαιτείται Email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:58
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:157
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:249
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:349
+msgid "Invalid Email"
+msgstr "Μη έγκυρο Email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:60
+msgid "Add Email"
+msgstr "Προσθήκη ηλεκτρονικού ταχυδρομείου"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:65
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:110
+msgid "Old Password"
+msgstr "Παλιός Κωδικός"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:66
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:111
+msgid "Old Password is required"
+msgstr "Απαιτείται παλιός ο κωδικός πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:68
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:318
+msgid "New Password"
+msgstr "Νέος Κωδικός"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:69
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:319
+msgid "New Password is required"
+msgstr "Απαιτείται νέος κωδικός πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:72
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:322
+msgid "Retype New Password"
+msgstr "Πληκτρολογήστε ξανά νέο κωδικό πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:73
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:323
+msgid "New Password and Retype Password did not match"
+msgstr "Οι δυο κωδικοί δεν ταιριάζουν"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:75
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:325
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/change_password.html:5
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/edit_user_profile.html:26
+msgid "Change password"
+msgstr "Αλλαγή κωδικού"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:96
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:131
+msgid "Old Password is incorrect"
+msgstr "Ο παλιός κωδικός πρόσβασης είναι εσφαλμένος"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:105
+msgid "New Username"
+msgstr "Νέο όνομα χρήστη"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:106
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:153
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:244
+msgid "Username is required"
+msgstr "Απαιτείται όνομα χρήστη"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:141
+msgid "First name"
+msgstr "Όνομα"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:142
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:144
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:152
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:212
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:243
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:159
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:251
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:160
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:252
+msgid "Password is required"
+msgstr "Απαιτείται ο κωδικός πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:162
+msgid "Remember me"
+msgstr "Remember me"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:171
+msgid "Username or Email"
+msgstr "Όνομα χρήστη ή Email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:208
+msgid "Username/Email"
+msgstr "Όνομα χρήστη/Email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:222
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:304
+#, python-format
+msgid "%(username_or_email)s does not exist"
+msgstr "%(username_or_email)s δεν υπάρχει"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:225
+msgid "Incorrect Password"
+msgstr "Λανθασμένος Κωδικός"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:229
+#, python-format
+msgid "Incorrect %(username_or_email)s and/or Password"
+msgstr "Λανθασμένο %(username_or_email)s και/ή Κωδικός"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:254
+msgid "Retype Password"
+msgstr "Επαναπληκτρολόγηση Κωδικού Πρόσβασης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:255
+msgid "Password and Retype Password did not match"
+msgstr "Ο κωδικός και ο κωδικός επιβεβαίωσης δεν ταιριάζουν"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:256
+msgid "Token"
+msgstr "Token"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:293
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:309
+msgid "Your email address"
+msgstr "H διεύθυνση email σας"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:294
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:310
+msgid "Email address is required"
+msgstr "Απαιτείται διεύθυνση email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:295
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:311
+msgid "Invalid Email address"
+msgstr "Άκυρη διεύθυνση email"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:297
+msgid "Send reset password email"
+msgstr "Αποστολή email επαναφοράς κωδικού"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:313
+msgid "Resend email confirmation email"
+msgstr "Επαναποστολή email επιβεβαίωσης"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:351
+msgid "Invite!"
+msgstr "Πρόσκληση χρήστη!"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:357
+msgid "Home Page"
+msgstr "Αρχική σελίδα"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:359
+msgid "Member Page"
+msgstr "Σελίδα μέλους"
+
+#: venv/lib/python3.7/site-packages/flask_user/forms.py:360
+msgid "Admin Page"
+msgstr "Σελίδα διαχειριστή"
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager.py:250
+msgid ""
+"Password must have at least 6 characters with one lowercase letter, one "
+"uppercase letter and one number"
+msgstr ""
+"Ο κωδικός πρέπει να περιέχει τουλάχιστον 6 χαρακτήρες με τουλάχιστον ενα "
+"μικρο, ενα κεφαλαίο και έναν αριθμό"
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager.py:266
+msgid "Username must be at least 3 characters long"
+msgstr "Το πεδίο πρέπει να έχει τουλάχιστον %(min)d χαρακτήρες μήκος."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager.py:272
+msgid "Username may only contain letters, numbers, '-', '.' and '_'"
+msgstr ""
+"Το όνομα χρήστη μπορεί να περιέχει μόνο γράμματα, αριθμούς, '-', '.' και '_'"
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:113
+msgid "Your password has been changed successfully."
+msgstr "Ο κωδικός σας έχει αλλάξει επιτυχώς."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:148
+#, python-format
+msgid "Your username has been changed to '%(username)s'."
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:173
+msgid "Invalid confirmation token."
+msgstr "Άκυρο token επιβεβαίωσης."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:185
+msgid "Your email has been confirmed."
+msgstr "Το email σας έχει επιβεβαιωθεί."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:278
+#, python-format
+msgid ""
+"A reset password email has been sent to '%(email)s'. Open that email and "
+"follow the instructions to reset your password."
+msgstr ""
+"Έχει σταλεί email επαναφοράς κωδικού στο '%(email)s'. Ανοίξτε το email και "
+"ακολουθήστε τις οδηγίες για να επαναφέρετε τον κωδικό σας."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:349
+msgid "Invitation has been sent."
+msgstr "Η πρόσκληση έχει σταλθεί."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:418
+msgid "You have signed out successfully."
+msgstr "Έχετε αποσυνδεθεί με επιτυχία."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:571
+msgid "Your reset password token is invalid."
+msgstr "Το token επαναφοράς κωδικού είναι άκυρο."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:594
+msgid "Your password has been reset successfully."
+msgstr "Έγινε επιτυχημένη επαναφορά του κωδικού σας."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:611
+#, python-format
+msgid "You must be signed in to access '%(url)s'."
+msgstr "Πρέπει να συνδεθείτε για έχετε πρόσβαση στο '%(url)s'."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:622
+#, python-format
+msgid "You do not have permission to access '%(url)s'."
+msgstr "Δεν έχετε πρόσβαση στο '%(url)s'."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:648
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:662
+#, python-format
+msgid ""
+"A confirmation email has been sent to %(email)s with instructions to "
+"complete your registration."
+msgstr ""
+"Έχει σταλεί ενα email επιβεβαίωσης στο %(email)s με οδηγίες για το πως να "
+"ολοκληρώσετε την έγγραφή σας."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:650
+msgid "You have registered successfully."
+msgstr "Έχετε εγγραφεί με επιτυχία."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:671
+msgid "Your account has not been enabled."
+msgstr "Ο λογαριασμός σας δεν έχει ενεργοποιηθεί."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:680
+#, python-format
+msgid ""
+"Your email address has not yet been confirmed. Check your email Inbox and "
+"Spam folders for the confirmation email or <a href=\"%(url)s\">Re-send "
+"confirmation email</a>."
+msgstr ""
+"Η διεύθυνση email σας δεν έχει επιβεβαιωθεί ακόμα. Ελέγξτε το Inbox και τον "
+"Spam φάκελο για το email επιβεβαίωσης ή <a href=\"%(url)s\">Επαναποστολή "
+"email επιβεβαίωσης."
+
+#: venv/lib/python3.7/site-packages/flask_user/user_manager__views.py:691
+msgid "You have signed in successfully."
+msgstr "Έχετε συνδεθεί με επιτυχία."
+
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/forgot_password.html:5
+msgid "Forgot Password"
+msgstr "Ξεχάσατε τον κωδικό"
+
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/login.html:21
+msgid "New here? Register."
+msgstr "Καινούργιος εδώ; Εγγράψου."
+
+#: venv/lib/python3.7/site-packages/flask_user/templates/flask_user/register.html:21
+msgid "Already registered? Sign in."
+msgstr "Έχεις ήδη εγγραφεί; Είσοδος."
+
+#: venv/lib/python3.7/site-packages/flask_wtf/file.py:50
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:205
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:245
+msgid "This field is required."
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+
+#: venv/lib/python3.7/site-packages/flask_wtf/file.py:83
+msgid "File does not have an approved extension: {extensions}"
+msgstr "Το αρχείο αυτό δεν έχει επιτρεπτή κατάληξη: {extensions}"
+
+#: venv/lib/python3.7/site-packages/flask_wtf/file.py:88
+msgid "File does not have an approved extension."
+msgstr "Το αρχείο αυτό δεν έχει επιτρεπτή κατάληξη."
+
+#: venv/lib/python3.7/site-packages/passlib/ext/django/utils.py:957
+msgid "algorithm"
+msgstr "αλγόριθμος"
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:58
+#, python-format
+msgid "Invalid field name '%s'."
+msgstr "Άκυρο όνομα πεδίου '%s'."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:66
+#, python-format
+msgid "Field must be equal to %(other_name)s."
+msgstr "Το πεδίο πρέπει να είναι ίσο με %(other_name)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:99
+#, python-format
+msgid "Field must be at least %(min)d character long."
+msgid_plural "Field must be at least %(min)d characters long."
+msgstr[0] "Το πεδίο πρέπει να έχει τουλάχιστον %(min)d χαρακτήρα μήκος."
+msgstr[1] "Το πεδίο πρέπει να έχει τουλάχιστον %(min)d χαρακτήρες μήκος."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:102
+#, python-format
+msgid "Field cannot be longer than %(max)d character."
+msgid_plural "Field cannot be longer than %(max)d characters."
+msgstr[0] "Το πεδίο δεν πρέπει να έχει περισσοτέρους %(max)d χαρακτήρα μήκος."
+msgstr[1] "Το πεδίο δεν πρέπει να έχει περισσοτέρους %(max)d χαρακτήρες μήκος."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:105
+#, python-format
+msgid "Field must be between %(min)d and %(max)d characters long."
+msgstr "Το πεδίο πρέπει ανάμεσα στους %(min)d και %(max)d χαρακτήρες μήκος."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:141
+#, python-format
+msgid "Number must be at least %(min)s."
+msgstr "Ο αριθμός πρέπει να είναι τουλάχιστον %(min)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:143
+#, python-format
+msgid "Number must be at most %(max)s."
+msgstr "Ο αριθμός πρέπει να είναι το πολύ %(max)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:145
+#, python-format
+msgid "Number must be between %(min)s and %(max)s."
+msgstr "Ο αριθμός πρέπει ανάμεσα στο %(min)s και στο %(max)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:277
+msgid "Invalid input."
+msgstr "Άκυρη τιμή."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:311
+#: venv/lib/python3.7/site-packages/wtforms_components/validators.py:191
+msgid "Invalid email address."
+msgstr "Άκυρη διεύθυνση email."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:352
+msgid "Invalid IP address."
+msgstr "Άκυρη διεύθυνση IP."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:403
+msgid "Invalid Mac address."
+msgstr "Άκυρη διεύθυνση Mac."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:432
+msgid "Invalid URL."
+msgstr "Άκυρη διεύθυνση URL."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:452
+msgid "Invalid UUID."
+msgstr "Άκυρη διεύθυνση UUID."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:482
+#, python-format
+msgid "Invalid value, must be one of: %(values)s."
+msgstr "Άκυρη τιμή, πρέπει να είναι μια απο αυτές: %(values)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/validators.py:514
+#, python-format
+msgid "Invalid value, can't be any of: %(values)s."
+msgstr "Άκυρη τιμή, δεν πρέπει να είναι μια απο αυτές: %(values)s."
+
+#: venv/lib/python3.7/site-packages/wtforms/csrf/core.py:98
+#: venv/lib/python3.7/site-packages/wtforms/ext/csrf/form.py:47
+msgid "Invalid CSRF Token"
+msgstr "Άκυρο CSRF Token"
+
+#: venv/lib/python3.7/site-packages/wtforms/csrf/session.py:61
+#: venv/lib/python3.7/site-packages/wtforms/ext/csrf/session.py:58
+msgid "CSRF token missing"
+msgstr "Δεν υπάρχει CSRF token"
+
+#: venv/lib/python3.7/site-packages/wtforms/csrf/session.py:69
+#: venv/lib/python3.7/site-packages/wtforms/ext/csrf/session.py:66
+msgid "CSRF failed"
+msgstr "Αποτυχία CSRF"
+
+#: venv/lib/python3.7/site-packages/wtforms/csrf/session.py:74
+#: venv/lib/python3.7/site-packages/wtforms/ext/csrf/session.py:71
+msgid "CSRF token expired"
+msgstr "Το CSRF token έχει λήξει"
+
+#: venv/lib/python3.7/site-packages/wtforms/ext/appengine/fields.py:87
+#: venv/lib/python3.7/site-packages/wtforms/ext/appengine/fields.py:164
+#: venv/lib/python3.7/site-packages/wtforms/ext/appengine/fields.py:166
+#: venv/lib/python3.7/site-packages/wtforms/ext/django/fields.py:95
+#: venv/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/fields.py:125
+#: venv/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/fields.py:127
+#: venv/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/fields.py:180
+#: venv/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/fields.py:185
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:475
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:249
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:251
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:311
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:316
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:582
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/fields.py:587
+#: venv/lib/python3.7/site-packages/wtforms_components/fields/select.py:63
+msgid "Not a valid choice"
+msgstr "Μη επιτρεπτή επιλογή"
+
+#: venv/lib/python3.7/site-packages/wtforms/ext/appengine/fields.py:185
+msgid "Not a valid list"
+msgstr "Μη έγκυρη λίστα"
+
+#: venv/lib/python3.7/site-packages/wtforms/ext/appengine/fields.py:204
+msgid "Not a valid integer list"
+msgstr "Μη έγκυρη λίστα ακέραιων"
+
+#: venv/lib/python3.7/site-packages/wtforms/ext/dateutil/fields.py:63
+msgid "Please input a date/time value"
+msgstr "Παρακαλώ προσθέστε μια ημ/ωρα"
+
+#: venv/lib/python3.7/site-packages/wtforms/ext/dateutil/fields.py:75
+#: venv/lib/python3.7/site-packages/wtforms/ext/dateutil/fields.py:83
+msgid "Invalid date/time input"
+msgstr "Άκυρη μια ημ/ωρα"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:468
+msgid "Invalid Choice: could not coerce"
+msgstr "Άκυρη επιλογή: could not coerce"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:501
+#: venv/lib/python3.7/site-packages/wtforms_components/fields/select_multiple.py:24
+msgid "Invalid choice(s): one or more data inputs could not be coerced"
+msgstr ""
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:508
+#: venv/lib/python3.7/site-packages/wtforms_components/fields/select_multiple.py:36
+#, python-format
+msgid "'%(value)s' is not a valid choice for this field"
+msgstr "'%(value)s' δεν είναι έγκυρη επιλογή για αυτό το πεδίο"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:591
+msgid "Not a valid integer value"
+msgstr "Δεν είναι έγκυρη ακέραιη τιμή"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:657
+msgid "Not a valid decimal value"
+msgstr "Δεν είναι έγκυρη δεκαδική τιμή"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:684
+msgid "Not a valid float value"
+msgstr "Δεν είναι έγκυρη δεκαδική τιμή"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:745
+msgid "Not a valid datetime value"
+msgstr "Δεν είναι έγκυρη ημ/ώρα"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:762
+msgid "Not a valid date value"
+msgstr "Δεν είναι έγκυρη ημερομηνία"
+
+#: venv/lib/python3.7/site-packages/wtforms/fields/core.py:779
+msgid "Not a valid time value"
+msgstr "Δεν είναι έγκυρη ώρα"
+
+#: venv/lib/python3.7/site-packages/wtforms_alchemy/validators.py:90
+msgid "Already exists."
+msgstr "Υπάρχει ήδη."
+
+#~ msgid "Company name"
+#~ msgstr "Όνομα Εταιρείας"
+
+#~ msgid "TaxOffice"
+#~ msgstr "Δ.Ο.Υ"
+
+#~ msgid "Title"
+#~ msgstr "Προσφώνηση"
+
+#~ msgid "Orthodox Easter"
+#~ msgstr "Ορθόδοξο Πάσχα"
+
+#~ msgid "Julian Easter"
+#~ msgstr "Ιουλιανό Πάσχα"
+
+#~ msgid "Western Easter"
+#~ msgstr "Δυτικό Πάσχα"
+
+#~ msgid "Easter Type"
+#~ msgstr "Τύπος Πάσχα"
+
+#~ msgid "Company Name"
+#~ msgstr "Επωνυμία"
+
+#~ msgid "Company Title"
+#~ msgstr "Τίτλος"
+
+#~ msgid "Tax Number"
+#~ msgstr "Α.Φ.Μ."
+
+#~ msgid "First Name"
+#~ msgstr "Κυρίως όνομα"
+
+#~ msgid "Middle Name"
+#~ msgstr "Δεύτερο Όνομα"
+
+#~ msgid "Last Name"
+#~ msgstr "Επώνυμο"
+
+#~ msgid "Mobile"
+#~ msgstr "Κινητό τηλέφωνο"
+
+#~ msgid "Telephone"
+#~ msgstr "Σταθερό τηλέφωνο"
+
+#~ msgid "Department"
+#~ msgstr "Τμήμα - Υποκατάστημα"
+
+#~ msgid "Street"
+#~ msgstr "Οδός και αριθμός"
+
+#~ msgid "City"
+#~ msgstr "Πόλη"
+
+#~ msgid "Municipality"
+#~ msgstr "Δήμος"
+
+#~ msgid "Prefecture"
+#~ msgstr "Νομός"
+
+#~ msgid "Country"
+#~ msgstr "Χώρα"
+
+#~ msgid "District"
+#~ msgstr "Περιφέρεια"
+
+#~ msgid "Zip Code"
+#~ msgstr "ΤΤ"
+
+#~ msgid "Activities"
+#~ msgstr "Δραστηριότητα"
+
+#~ msgid "Tax Office"
+#~ msgstr "Δ.Ο.Υ"
+
+#~ msgid "Enabled"
+#~ msgstr "Ενεργοποιημένο"
+
+#~ msgid "Card Code"
+#~ msgstr "Κωδικός Κάρτας"
+
+#~ msgid "Access Control"
+#~ msgstr "Έλεγχος πρόσβασης"
+
+#~ msgid "Register Number"
+#~ msgstr "Αριθμός μητρώου"
+
+#~ msgid "Full Name"
+#~ msgstr "Πλήρες όνομα"
+
+#~ msgid "Father's Name"
+#~ msgstr "Όνομα πατέρα"
+
+#~ msgid "Mother's Name"
+#~ msgstr "Όνομα μητέρας"
+
+#~ msgid "Department Code"
+#~ msgstr "Κωδικός Τμήματος"
+
+#~ msgid "Group Name"
+#~ msgstr "Όνομα Ομάδας"
+
+#~ msgid "Group Code"
+#~ msgstr "Κωδικός ομάδας"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "Phone"
+#~ msgstr "Τηλέφωνο"
+
+#~ msgid "EMAIL"
+#~ msgstr "EMAIL"
+
+#~ msgid "Grade Number"
+#~ msgstr "Αριθμός βαθμού"
+
+#~ msgid "Days Off"
+#~ msgstr "Ημέρες ρεπό"
+
+#~ msgid "Access Time Zone"
+#~ msgstr "Ζώνη ώρας πρόσβασης"
+
+#~ msgid "Starting Date"
+#~ msgstr "Ημερομηνία αρχής"
+
+#~ msgid "Ending Date"
+#~ msgstr "Ημερομηνία τέλους"
+
+#~ msgid "Tolerance"
+#~ msgstr "Ανοχή"
+
+#~ msgid "Period"
+#~ msgstr "Περίοδος"
+
+#~ msgid "Type Period"
+#~ msgstr "Τύπος Περιόδου"
+
+#~ msgid "Charge"
+#~ msgstr "Χρέωση"
+
+#~ msgid "Commission"
+#~ msgstr "Προμήθεια"
+
+#~ msgid "Hiring Date"
+#~ msgstr "Ημερομηνία πρόσληψης"
+
+#~ msgid "Profession"
+#~ msgstr "Επάγγελμα"
+
+#~ msgid "Identity"
+#~ msgstr "Ταυτότητα"
+
+#~ msgid "Bank Account"
+#~ msgstr "Τραπεζικός Λογαριασμός"
+
+#~ msgid "Bank"
+#~ msgstr "Τράπεζα"
+
+#~ msgid "Birth Date"
+#~ msgstr "Ημερομηνία Γέννησης"
+
+#~ msgid "Years Working"
+#~ msgstr "Χρόνια Εργασίας"
+
+#~ msgid "Sex"
+#~ msgstr "Φύλο"
+
+#~ msgid "IKA"
+#~ msgstr "Ικα"
+
+#~ msgid "AMKA"
+#~ msgstr "Αμκα"
+
+#~ msgid "Insurance"
+#~ msgstr "Ασφάλιση"
+
+#~ msgid "Comments"
+#~ msgstr "Σχόλια"
+
+#~ msgid "Salary Grade Number"
+#~ msgstr "Αριθμός βαθμού μισθού"
+
+#~ msgid "Per month Salary"
+#~ msgstr "Μισθός ανά μήνα"
+
+#~ msgid "Per day Salary"
+#~ msgstr "Ανά ημέρα Μισθός"
+
+#~ msgid "Per hour Salary"
+#~ msgstr "Ανά ώρα Μισθός"
+
+#~ msgid "Contract"
+#~ msgstr "Σύμβαση"
+
+#~ msgid "Max Days Leave"
+#~ msgstr "Μέγιστη άδεια ημερών"
+
+#~ msgid "Access Enabled"
+#~ msgstr "Ενεργοποιημένη πρόσβαση"
+
+#~ msgid "Leaves Enabled"
+#~ msgstr "Ενεργοποιημένη άδεια"
+
+#~ msgid "Category"
+#~ msgstr "Κατηγορία"
+
+#~ msgid "Present"
+#~ msgstr "Παρόν"
+
+#~ msgid "Present Check"
+#~ msgstr "Παρών έλεγχος"
+
+#~ msgid "Last Timestamp"
+#~ msgstr "Τελευταία χρονική σήμανση"
+
+#~ msgid "Last Reader"
+#~ msgstr "Τελευταίος αναγνώστης"
+
+#~ msgid "Vehicle"
+#~ msgstr "Όχημα"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "Movable"
+#~ msgstr "Κινητή"
+
+#~ msgid "Days from easter"
+#~ msgstr "Ημέρες από το Πάσχα"
+
+#~ msgid "Easter"
+#~ msgstr "Πάσχα"
+
+#~ msgid "Static date"
+#~ msgstr "Στατική ημερομηνία"
+
+#~ msgid "after"
+#~ msgstr "μετά"
+
+#~ msgid "before"
+#~ msgstr "πριν"
+
+#~ msgid "In %s"
+#~ msgstr "Σε %s"
+
+#~ msgid "%s days %s %s"
+#~ msgstr "%s μέρες %s από το %s"
+
+#~ msgid "Welcome"
+#~ msgstr "Καλώς ήρθατε"
+
+#~ msgid "Saved"
+#~ msgstr "Αποθηκεύτηκε"
+
+#~ msgid "Intime Business control panel"
+#~ msgstr "Πίνακας ελέγχου \"Intime Business\""
+
+#~ msgid "Create a new company account or connect with an existing"
+#~ msgstr "Δημιουργία νέου εταιρικού λογαριασμού ή σύνδεση με  υπάρχων"
+
+#~ msgid "My company doesn't have an account"
+#~ msgstr "Η εταιρεία μου δεν έχει λογαριασμό"
+
+#~ msgid "Selected department:"
+#~ msgstr "Επιλεγμένο τμήμα:"
+
+#~ msgid "Rename"
+#~ msgstr "Μετονομασία"
+
+#~ msgid "Delete"
+#~ msgstr "Διαγραφή"
+
+#~ msgid "New department:"
+#~ msgstr "Νέο Τμήμα - Υποκατάστημα:"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "Create new company account"
+#~ msgstr "Δημιουργία νέου εταιρικού λογαριασμού"
+
+#~ msgid "My company already have an account"
+#~ msgstr "Η εταιρεία μου έχει ήδη λογαριασμό"
+
+#~ msgid "Connect with existing company account"
+#~ msgstr "Σύνδεση με υπάρχοντα εταιρικό λογαριασμό"
+
+#~ msgid "Add new"
+#~ msgstr "Προσθήκη νέας"
+
+#~ msgid "Details"
+#~ msgstr "Λεπτομέρειες"
+
+#~ msgid "Actions"
+#~ msgstr "Ενέργειες"
+
+#~ msgid "Employees"
+#~ msgstr "Εργαζόμενοι"
+
+#~ msgid "Year"
+#~ msgstr "Χρονιά"
+
+#~ msgid "Generate"
+#~ msgstr "Δημιουργία"
+
+#~ msgid "Add Shift Group"
+#~ msgstr "Προσθήκη Ομάδας βάρδιας"
+
+#~ msgid "Group name"
+#~ msgstr "Όνομα Ομάδας"
+
+#~ msgid "Cancel"
+#~ msgstr "Ακύρωση"

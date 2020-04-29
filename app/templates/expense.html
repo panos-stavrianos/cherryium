@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block header %}
+    <div class="panel-header panel-header-sm">
+        <div class="header text-center">
+            <h2 class="title">{{ title }}</h2>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-chart edit-org">
+                    <div class="card-header">
+                        <div class="col-auto">
+                            <button id="edit_record" class="btn btn-primary m-2" role="button"
+                                    data-id="{{ expense.id }}"
+                                    aria-pressed="true">{{ _("Edit") }}</button>
+                            {% set delete_confirm=_('Are you sure you want to delete: ') + expense.name %}
+                            <a href="/expense_delete/{{ expense.id }}" class="btn btn-danger m-2"
+                               onclick="return confirm('{{ delete_confirm }}')"
+                               role="button"
+                               aria-pressed="true">{{ _("Delete") }}</a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h5>id: <strong>{{ expense.id }}</strong></h5>
+                        <h5>name: <strong>{{ expense.name }}</strong></h5>
+                        <h5>price: <strong>{{ expense.price }}</strong></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="add_edit_modal"></div>
+
+{% endblock %}

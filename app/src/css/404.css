@@ -1,0 +1,56 @@
+.error_404 p {
+    font-size: 200px;
+    margin-top: 15%;
+    color: white
+}
+
+.error_404  #tag {
+    color: white;
+    font-size: 40px;
+    margin-top: -13%;
+}
+
+@media only screen and (max-width: 530px) {
+    .error_404  P {
+        font-size: 30px;
+    }
+
+
+    .error_404  #tag {
+        font-size: 20px;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width: 531px) and (max-width: 580px) {
+    .error_404  P {
+        font-size: 50px;
+    }
+
+
+    .error_404  #tag {
+        font-size: 25px;
+        margin-top: -10%;
+    }
+}
+
+
+@media only screen and (min-width: 581px) and (max-width: 850px) {
+    .error_404  P {
+        font-size: 100px;
+        margin-top: 12%;
+
+    }
+    .error_404  #tag {
+        font-size: 40px;
+        margin-top: -15%;
+    }
+}
+
+
+
+
+
+
+
+

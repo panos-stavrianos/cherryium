@@ -1,0 +1,127 @@
+.icon {
+    display: inline-block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    stroke-dashoffset: 1000;
+    mask-size: cover;
+    object-fit: cover;
+    height: auto;
+}
+
+.text-small {
+    font-size: small;
+}
+
+/*.card-header .btn {*/
+/*    position: absolute;*/
+/*    right: 20px;*/
+/*    top: 0;*/
+/*}*/
+.alert a {
+    color: #f6f4f9;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+
+.navbar .navbar-nav .nav-link i.fas {
+    top: 1px;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    width: 21px;
+}
+
+.navbar .navbar-nav .nav-link i.fas + p {
+    margin-left: 3px;
+}
+
+.page-item.active .page-link {
+    background-color: #6fb6de;
+    border-color: #0000;
+}
+
+.page-link {
+    color: #477d9a;
+    border: 1px solid #477d9a;
+}
+
+.page-link:hover {
+    color: #ffffff;
+    background-color: #6eb5de;
+    border-color: #0000;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #6eb5de;
+}
+.dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
+     color: #fff;
+}

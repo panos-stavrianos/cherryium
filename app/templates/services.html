@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block header %}
+    <div class="panel-header">
+        <div class="header text-center">
+            <h2 class="title">{{ title }}</h2>
+            <button id="add_record" class="btn btn-primary"><i class="fas fa-plus"></i></button>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-chart edit-org">
+                    <div class="card-body">
+                        <table id="services" class="table dt-responsive nowrap" cellspacing="0" width="100%">
+                            <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>{{ _("Name") }}</th>
+                                <th>{{ _("Description") }}</th>
+                                <th>{{ _("Price") }}</th>
+                                <th>{{ _("Enabled") }}</th>
+                            </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="add_edit_modal"></div>
+{% endblock %}

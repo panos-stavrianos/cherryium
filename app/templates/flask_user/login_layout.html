@@ -1,0 +1,27 @@
+{% extends "application.html" %}
+
+{% block layout %}
+
+    <div id="particles-js">
+
+        <canvas class="particles-js-canvas-el"
+                style="width: 100%; height: 100%;"></canvas>
+    </div>
+
+
+    <div class="container col-lg-4 col-md-6 col-sm-9 col-12">
+
+        <div id="loginbox" class="mainbox vertical-center">
+            <div class="text-center">
+                <img id="login_logo" src="/cherryium.png" class="img-fluid">
+            </div>
+            <a class="" href="/language/el_GR">
+                <span class="flag-icon flag-icon-gr"></span>
+            </a>
+            <a class="" href="/language/en">
+                <span class="flag-icon flag-icon-gb"></span>
+            </a>
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+{% endblock %}

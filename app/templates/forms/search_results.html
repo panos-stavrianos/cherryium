@@ -1,0 +1,27 @@
+<div class="dropdown-menu dropdown-menu-right show" id="search_results_dropdown" aria-labelledby="navbarDropdownMenuLink">
+    {% if customers is defined and customers[0] is defined %}
+        <p class="m-2">{{ 'Customers' }}</p>
+        {% for record in customers %}
+            <a class="dropdown-item" href="/customer/{{ record.id }}">{{ record.name }}</a>
+        {% endfor %}
+    {% endif %}
+
+    {% if services is defined and services[0] is defined %}
+        <p class="m-2">{{ 'Services' }}</p>
+        {% for record in services %}
+            <a class="dropdown-item" href="/service/{{ record.id }}">{{ record.name }} <br/>
+                <strong>{{ record.description }}</strong></a>
+        {% endfor %}
+    {% endif %}
+
+    {% if products is defined and products[0] is defined %}
+        <p class="m-2">{{ 'Products' }}</p>
+        {% for record in products %}
+            <a class="dropdown-item" href="/product/{{ record.id }}">{{ record.name }} <br/>
+                <strong>{{ record.description }}</strong></a>
+        {% endfor %}
+    {% endif %}
+    <div class="text-center">
+        <button class="btn btn-sm btn-primary" id="close_search_results">Close</button>
+    </div>
+</div>

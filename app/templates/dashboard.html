@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+{% block header %}
+    <div class="panel-header">
+        <div class="header text-center">
+            <h2 class="title">{{ title }}</h2>
+
+            <button id="add_record" class="btn btn-primary"><i id="add_record_icon" class="fa fa-spinner fa-spin"></i>
+            </button>
+
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>{{ _("Products") }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <table id="customer_products" class="table table-full-width dt-responsive nowrap"
+                               cellspacing="0" width="100%">
+                            <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>customer_id</th>
+                                <th>{{ _("Name") }}</th>
+                                <th>product_id</th>
+                                <th>{{ _("Product") }}</th>
+                                <th>{{ _("Description") }}</th>
+                                <th>{{ _("Date") }}</th>
+                            </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>{{ _("Services") }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <table id="customer_services" class="table table-full-width dt-responsive nowrap"
+                               cellspacing="0" width="100%">
+                            <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>customer_id</th>
+                                <th>{{ _("Name") }}</th>
+                                <th>service_id</th>
+                                <th>{{ _("Service") }}</th>
+                                <th>{{ _("Description") }}</th>
+                                <th>{{ _("Date") }}</th>
+                            </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="add_edit_modal"></div>
+
+{% endblock %}

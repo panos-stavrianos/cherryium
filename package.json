@@ -1,0 +1,50 @@
+{
+  "name": "hair_n_flair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.js -d app/static/",
+    "build_watch": "parcel watch index.js -d app/static/",
+    "start": "gunicorn -b 0.0.0.0:80 --worker-class=gevent -w 1 app:app",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock2.json && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "app": "^0.1.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-select": "^1.13.16",
+    "chartjs": "^0.3.24",
+    "datatables.net": "^1.10.20",
+    "datatables.net-bs4": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "datatables.net-responsive-dt": "^2.2.3",
+    "flag-icon-css": "^3.4.6",
+    "help": "^3.0.2",
+    "inputmask": "^5.0.3",
+    "jquery": "^3.4.1",
+    "marked": "^0.8.2",
+    "moment": "^2.24.0",
+    "orgchart": "^2.1.10",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "particles.js": "^2.0.0",
+    "perfect-scrollbar": "^1.5.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "ro": "^1.2.2",
+    "select-picker": "^0.3.2",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-md": "^1.0.1"
+  },
+  "staticFiles": {
+    "staticPath": "./app/src/public",
+    "staticOutDir": "tt",
+    "watcherGlob": "**"
+  }
+}

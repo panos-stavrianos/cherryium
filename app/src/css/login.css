@@ -1,0 +1,45 @@
+/*#loginbox {*/
+/*    padding-top: 50px;*/
+/*}*/
+
+#loginbox > div:first-child {
+    padding-bottom: 10px;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#login_logo {
+    margin: 10px;
+    width: 200px;
+}
+
+#login_brand {
+    width: 150px;
+}
+
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to right, #943232 0%, #b53e3e 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
