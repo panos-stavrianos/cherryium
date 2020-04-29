@@ -19,16 +19,10 @@ from flask import Flask, request, session
 from app.config import Config
 
 app = Flask(__name__, template_folder="templates")
-
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-
 app.config.from_object(Config)
-
 storage = Minio(app)
-
 babel = Babel(app)
-
-
 logging.getLogger('sqlalchemy.engine.base.Engine').disabled = True
 
 
@@ -43,12 +37,10 @@ class CustomerQuery(CachingQuery):
 
 
 db = SQLAlchemy(app, query_class=CustomerQuery)
-
 migrate = Migrate(app, db)
 cache = Cache(app)
 
 socketio = SocketIO(app)
-
 
 @babel.localeselector
 def get_locale():
@@ -68,5 +60,3 @@ from app import models
 user_manager = UserManager(app, db, models.User)
 
 from app.routes import routes, customers, products, services, expenses, partners, dashboard
-
-# models.populate()
