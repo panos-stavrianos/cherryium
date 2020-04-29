@@ -1,10 +1,10 @@
-alembic
+alembic>=1.4.2
 beautifulsoup4
 Bootstrap-Flask
 certifi
 chardet
 Click
-Flask
+Flask>=1.1.2
 Flask-SQLAlchemy
 Flask-WTF
 gunicorn
@@ -13,7 +13,7 @@ itsdangerous
 Jinja2
 jsonify
 Mako
-MarkupSafe
+MarkupSafe>=1.1.1
 protobuf
 pyasn1
 pyasn1-modules
@@ -22,7 +22,7 @@ python-editor
 requests
 six
 soupsieve
-SQLAlchemy
+SQLAlchemy>=1.3.16
 sqlalchemy-datatables
 urllib3
 Werkzeug
@@ -32,7 +32,7 @@ APScheduler
 flask-socketio
 python-socketio
 gevent-websocket
-gevent
+gevent>=20.4.0
 flask-cors
 mysqlclient
 flask-sqlacodegen
@@ -49,3 +49,4 @@ Flask-Minio
 Flask-SQLAlchemy-Caching
 email_validator
 mysql-connector
+WTForms>=2.3.1
