@@ -20,6 +20,6 @@
     "COPY --from=0 /usr/src/app/app/static ./app/static",
     "RUN ls -a",
     "EXPOSE 80",
-    "CMD gunicorn -b 0.0.0.0:80 --worker-class=gevent -w 1 app:app"
+    "CMD gunicorn -b 0.0.0.0:80 --worker-class=gevent -w 4 app:app"
   ]
 }
