@@ -7,7 +7,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'AK2z8RvgrN3rvk4WKBSDGsU7LKkwGdRP'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
-                              'mysql://root:NA5y2ES5SAFnkGXA@192.168.111.13:33306/hair_flair'
+                              'mysql+pymysql://root:NA5y2ES5SAFnkGXA@192.168.111.13:33306/hair_flair'
 
     MYSQL_DATABASE_CHARSET = 'utf8mb4'
 

@@ -27,7 +27,7 @@ def get_customers_as_choices():
 
 
 def get_discounts_as_choices():
-    return list(map(lambda record: (str(record.id), record.name + " - " + record.per_cent),
+    return list(map(lambda record: (str(record.id), "{} - {}%".format(record.name, record.per_cent)),
                     Discount.query.by_user(current_user).options(FromCache(cache)).all()))
 
 
