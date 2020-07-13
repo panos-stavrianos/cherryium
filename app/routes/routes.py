@@ -41,10 +41,7 @@ def page_not_found(error):
 
 @app.context_processor
 def utility_processor():
-    if current_user:
-        return dict(lang=babel.locale_selector_func())
-    else:
-        return dict(lang=babel.locale_selector_func())
+    return dict(lang=babel.locale_selector_func())
 
 
 @app.route('/upload')
