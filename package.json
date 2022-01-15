@@ -25,7 +25,7 @@
     "help": "^3.0.2",
     "inputmask": "^5.0.3",
     "jquery": "^3.4.1",
-    "marked": "^0.8.2",
+    "marked": "^4.0.10",
     "moment": "^2.24.0",
     "orgchart": "^2.1.10",
     "parcel-plugin-static-files-copy": "^2.3.1",
